@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="java_script1.js"></script>
+    <meta name=viewport content=width=device-width,minimum-scale=1.0,maximum-scale=1.0/>
+</head>
+<style>
+
+    h2{
+        padding-left: 40%;
+    }
+
+    table {
+        border-collapse: collapse;
+        text-align: left;
+        width: 1400px;
+        border: 1px solid #ddd;
+        max-width:100%;
+        margin: 0 auto;
+    }
+    th {
+        background-color: #545b62;
+        color: white;
+    }
+    th, td {
+        border: 0;
+        max-width: 100%;
+        max-height: 200% ;
+        border-bottom: 1px solid #ddd;
+        width: 17%;
+    }
+
+
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+
+    .btn {
+        border: 1px;
+        outline: 1px;
+        cursor: pointer;
+        width: 30%;
+        height: 30px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        float: left;
+        margin-top: 4px;
+        margin-left: 1px;
+    }
+
+    .btn:hover {
+        background-color: #b6059a;
+    }
+
+    input[type=text], select {
+        padding: 5px 5px;
+        display: inline-block;
+        border: 3px solid #ccb6d1;
+        box-sizing: content-box;
+        float: left;
+    }
+
+    #wrapper {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+
+    #wrapper tr:hover {
+        background-color: #ddd;
+    }
+
+    #myInput {
+        border-color: #4CAF50;
+        width: 60%;
+        border-radius: 5px;
+        margin-top: 3px;
+        float: left;
+        margin-left: 2px;
+    }
+
+
+</style>
+<body>
+
+<h2>Sophist Schablonen</h2>
+
+<div id="wrapper">
+    <table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+
+        <tr>
+            <th>Systemname</th>
+            <th>Verbindlichkeit</th>
+            <th>Funktionalität</th>
+            <th>Objekt</th>
+            <th>Prozesswort</th>
+            <th>Buttons</th>
+        </tr>
+
+        <tr id="row1">
+            <td id="system_row1">Das System</td>
+            <td id="modal_row1">MUSS</td>
+            <td id="funkt_row1">die Möglichkeit bieten</td>
+            <td id="object_row1">die Bezahlung</td>
+            <td id="process_row1">zu berechnen</td>
+            <td>
+                <button id="edit_button1" class="btn" onclick="edit_row('1')"> edit</button>
+                <button id="save_button1" class="btn" onclick="save_row('1')"> save</button>
+                <button id="delete_button1" class="btn" onclick="delete_row('1')"> delete</button>
+            </td>
+        </tr>
+
+        <tr id="row2">
+            <td id="system_row2">Das Kassensystem</td>
+            <td id="modal_row2">SOLLTE</td>
+            <td id="funkt_row2">fähig sein</td>
+            <td id="object_row2">die Daten</td>
+            <td id="process_row2">zu speichern</td>
+            <td >
+                <button id="edit_button2" class="btn" onclick="edit_row('2')"> edit</button>
+                <button id="save_button2" class="btn" onclick="save_row('2')"> save</button>
+                <button id="delete_button2" class="btn" onclick="delete_row('2')"> delete</button>
+            </td>
+        </tr>
+
+
+        <tr id="kiritish">
+            <td><input type="text" id="new_system" placeholder="System"></td>
+            <td>
+                <select id="new_modal">
+                    <option>MUSS</option>
+                    <option>SOLLTE</option>
+                    <option>WIRD</option>
+                    <option>KANN</option>
+                </select>
+            </td>
+            <td>
+                <select id="new_funkt">
+                    <option>die Möglichkeit bieten</option>
+                    <option>fähig sein</option>
+                    <option>(keine Funktionalität)</option>
+                </select>
+            </td>
+            <td><input type="text" id="new_object" placeholder="Objekt"></td>
+            <td><input type="text" id="new_process" placeholder="Prozesswort"></td>
+            <td><button id="add_button" class="btn" onclick="add_row()"> add</button>
+                <input type="text" id="myInput" onkeyup="myFunctionSearch()" placeholder="Suche Verbindlichkeit..">
+            </td>
+        </tr>
+    </table>
+
+</div>
+
+</body>
+
+</html>
