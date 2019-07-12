@@ -5,26 +5,28 @@
  */
 
   ccm.files[ 'configs.js' ] = {
-    //Demo oder Funktionsmaster ohne Bedingung
+    //Demo oder FunktionsMASTeR ohne Bedingung
     "demo": {
       key: "demo",
+      "html.main.inner.0.inner": "FunktionsMASTeR ohne Bedingung",
       data: {
         "store": [ "ccm.store", 'https://ccmjs.github.io/mkaul-components/sophist/resources/datasets.js' ],
         "key": "demo"
       }
     },
-    //Funktionsmaster ohne Bedingung
-    "Funktionsmaster_oB": {
-      key: "Funktionsmaster_oB",
+    //FunktionsMASTeR ohne Bedingung
+    "FunktionsMASTeR_oB": {
+      key: "FunktionsMASTeR_oB",
       data: {
         "store": [ "ccm.store", 'https://ccmjs.github.io/mkaul-components/sophist/resources/datasets.js' ],
         "key": "demo"
       }
     },
 
-    //Funktionsmaster mit Bedingung
-    "Funktionsmaster_mB": {
-      key: "Funktionsmaster_mB",
+    //FunktionsMASTeR mit Bedingung
+    "FunktionsMASTeR_mB": {
+      "html.main.inner.0.inner":"FunktionsMASTeR mit Bedingung",
+      key: "FunktionsMASTeR_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Objekt","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","object","process"],
       initial_values: {
@@ -36,12 +38,13 @@
 
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Funktionsmaster_mB"
+        "key": "FunktionsMASTeR_mB"
       }
     },
-    // Detaillierter Funktionsmaster ohne Bedingung
-    "D_Funktionsmaster_oB": {
-      key: "D_Funktionsmaster_oB",
+    // Detaillierter FunktionsMASTeR ohne Bedingung
+    "D_FunktionsMASTeR_oB": {
+      "html.main.inner.0.inner":"Detaillierter FunktionsMASTeR ohne Bedingung",
+      key: "D_FunktionsMASTeR_oB",
       headers: ["Systemname","Verbindlichkeit","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["system","modal","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
       initial_values: {
@@ -55,12 +58,13 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "D_Funktionsmaster_oB"
+        "key": "D_FunktionsMASTeR_oB"
       }
     },
-    // Detaillierter Funktionsmaster mit Bedingung
-    "D_Funktionsmaster_mB": {
-      key: "D_Funktionsmaster_mB",
+    // Detaillierter FunktionsMASTeR mit Bedingung
+    "D_FunktionsMASTeR_mB": {
+      "html.main.inner.0.inner":"Detaillierter FunktionsMASTeR mit Bedingung",
+      key: "D_FunktionsMASTeR_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
       initial_values: {
@@ -74,12 +78,13 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "D_Funktionsmaster_mB"
+        "key": "D_FunktionsMASTeR_mB"
       }
     },
-    // Eigenschaftsmaster
-    "Eigenschaftsmaster": {
-      key: "Eigenschaftsmaster",
+    // EigenschaftsMASTeR
+    "EigenschaftsMASTeR": {
+      "html.main.inner.0.inner":"EigenschaftsMASTeR",
+      key: "EigenschaftsMASTeR",
       headers: ["Eigenschaft","Betrachtendes","Verbindlichkeit","Vergleich","Wert","SEIN","Buttons"],
       columns: ["eigenschaft","betrachtendes","modal","vergleich", "wert", "sein"],
       initial_values: {
@@ -90,12 +95,13 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Eigenschaftsmaster"
+        "key": "EigenschaftsMASTeR"
       }
     },
-    // Umgebungsmaster
-    "Umgebungsmaster":{
-      key: "Umgebungsmaster",
+    // UmgebungsMASTeR
+    "UmgebungsMASTeR":{
+      "html.main.inner.0.inner":"UmgebungsMASTeR",
+      key: "UmgebungsMASTeR",
       headers: ["(Komponente des)+Betrachtendes","Verbindlichkeit","so gestaltet sein, dass","(Bedingung)+ Betrachtendes","Eigenschaft","(Vergleich)+Wert","betrieben werden kann", "Buttons"],
       columns: ["komponente",                  "modal",          "gestaltet",             "betrachtendes","eigenschaft", "vergleich",        "betrieben"],
       initial_values: {
@@ -107,12 +113,13 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Umgebungsmaster"
+        "key": "UmgebungsMASTeR"
       }
     },
-    // Prozessmaster
-    "Prozessmaster":{
-      key: "Prozessmaster",
+    // ProzessMASTeR
+    "ProzessMASTeR":{
+      "html.main.inner.0.inner":"ProzessMASTeR",
+      key: "ProzessMASTeR",
       headers: [ "Buttons"],
       headers: ["Akteurname","Verbindlichkeit","(Präzisierung des   Objekts)","Objekt","(Präzisierung des Objekts)","(Konkretisierung des Prozessworts)","Prozesswort","Buttons"],
       columns: ["system","modal","präzisiere1","object", "präzisiere2", "konkretisiere", "process"],
@@ -127,12 +134,13 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Prozessmaster"
+        "key": "ProzessMASTeR"
       }
     },
-    // Bedingungsmaster für logische Aussage
-    "Bedingungsmaster_logik":{
-      key: "Bedingungsmaster_logik",
+    // BedingungsMASTeR für logische Aussage
+    "BedingungsMASTeR_logik":{
+      "html.main.inner.0.inner":"BedingungsMASTeR für logische Aussage",
+      key: "BedingungsMASTeR_logik",
       headers: ["Kojunktion", "logische Aussage","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt2","präzisiere1","präzisiere2",],
       initial_values: {
@@ -141,13 +149,14 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Bedingungsmaster_logik"
+        "key": "BedingungsMASTeR_logik"
       }
     },
 
-    // Bedingungsmaster für Ereignis
-    "Bedingungsmaster_ereignis":{
-      key: "Bedingungsmaster_ereignis",
+    // BedingungsMASTeR für Ereignis
+    "BedingungsMASTeR_ereignis":{
+      "html.main.inner.0.inner":"BedingungsMASTeR für Ereignis",
+      key: "BedingungsMASTeR_ereignis",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt1","präzisiere1","präzisiere2",],
       initial_values: {
@@ -156,13 +165,14 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Bedingungsmaster_ereignis"
+        "key": "BedingungsMASTeR_ereignis"
       }
     },
 
-    // Bedingungsmaster für Zeitraum
-    "Bedingungsmaster_zeitraum":{
-      key: "Bedingungsmaster_zeitraum",
+    // BedingungsMASTeR für Zeitraum
+    "BedingungsMASTeR_zeitraum":{
+      "html.main.inner.0.inner":"BedingungsMASTeR für Zeitraum",
+      key: "BedingungsMASTeR_zeitraum",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt3","präzisiere1","präzisiere2",],
       initial_values: {
@@ -171,12 +181,13 @@
       },
       data: {
         "store": [ "ccm.store", 'resources/datasets.js' ],
-        "key": "Bedingungsmaster_zeitraum"
+        "key": "BedingungsMASTeR_zeitraum"
       }
     },
 
-    // Functionalmaster without condition
+    // FunctionalMASTeR without condition
     "FunctionalM":{
+      "html.main.inner.0.inner":"FunctionalMASTeR without condition",
       key: "FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["system","modal_e","func_e","process","object",],
@@ -190,8 +201,9 @@
         "key": "FunctionalM"
       }
     },
-    //Functionalmaster with condition
+    //FunctionalMASTeR with condition
     "FunctionalM_wC":{
+      "html.main.inner.0.inner":"FunctionalMASTeR with condition",
       key: "FunctionalM_wC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","object",],
@@ -207,8 +219,9 @@
       }
     },
 
-    //Detailed functionalmaster
+    //Detailed functionalMASTeR
     "D_FunctionalM":{
+      "html.main.inner.0.inner":"Detailed functionalMASTeR",
       key: "D_FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -224,8 +237,9 @@
       }
     },
 
-    //Detailed functionalmaster with condition
+    //Detailed functionalMASTeR with condition
     "D_FunctionalMwC":{
+      "html.main.inner.0.inner":"Detailed functionalMASTeR with condition",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -241,8 +255,9 @@
         "key": "D_FunctionalMwC"
       }
     },
-    //properity Master
+    //properity MASTeR
     "D_FunctionalMwC":{
+      "html.main.inner.0.inner":"properity MASTeR",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -258,8 +273,9 @@
         "key": "D_FunctionalMwC"
       }
     },
-    //Environment Master
+    //Environment MASTeR
     "D_FunctionalMwC":{
+      "html.main.inner.0.inner":"Environment MASTeR",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -275,8 +291,9 @@
         "key": "D_FunctionalMwC"
       }
     },
-    //Process Master
+    //Process MASTeR
     "D_FunctionalMwC":{
+      "html.main.inner.0.inner":"Process MASTeR",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -295,6 +312,7 @@
 
     //Condition logical expression
     "condition_logical":{
+      "html.main.inner.0.inner":"Condition logical expression",
       key: "condition_logical",
       headers: ["Kojunktion", "logische Aussage","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt2_e","präzisiere1","präzisiere2",],
@@ -310,6 +328,7 @@
 
     // Condition event
     "condition_event":{
+      "html.main.inner.0.inner":"Condition event",
       key: "condition_event",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt1_e","präzisiere1","präzisiere2",],
@@ -325,6 +344,7 @@
 
     // Condition time
     "condition_time":{
+      "html.main.inner.0.inner":"Condition time",
       key: "condition_time",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt3_e","präzisiere1","präzisiere2",],

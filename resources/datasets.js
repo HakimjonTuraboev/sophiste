@@ -6,7 +6,7 @@
  */
 
 ccm.files[ 'datasets.js' ] = {
-   //Demo oder Funktionsmaster ohne Bedingung
+   //Demo oder FunktionsMASTeR ohne Bedingung
   "demo": {
     "key": "demo",
     "rows": [
@@ -27,9 +27,10 @@ ccm.files[ 'datasets.js' ] = {
     ]
 
   },
-  //Funktionsmaster mit Bedingung
-  "Funktionsmaster_mB": {
-    "key": "Funktionsmaster_mB",
+  //FunktionsMASTeR mit Bedingung
+  "FunktionsMASTeR_mB": {
+    "key": "FunktionsMASTeR_mB",
+
     "rows": [
       {
         bedingung: "Solange der Scanner an ist",
@@ -49,9 +50,9 @@ ccm.files[ 'datasets.js' ] = {
       }
     ]
   },
-  // Detaillierter Funktionsmaster ohne Bedingung
-  "D_Funktionsmaster_oB": {
-    "key": "D_Funktionsmaster_oB",
+  // Detaillierter FunktionsMASTeR ohne Bedingung
+  "D_FunktionsMASTeR_oB": {
+    "key": "D_FunktionsMASTeR_oB",
     "rows": [
       {
         system: "Das System",
@@ -67,9 +68,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
 
   },
-  // Detaillierter Funktionsmaster mit Bedingung
-  "D_Funktionsmaster_mB": {
-    "key": "D_Funktionsmaster_mB",
+  // Detaillierter FunktionsMASTeR mit Bedingung
+  "D_FunktionsMASTeR_mB": {
+    "key": "D_FunktionsMASTeR_mB",
     "rows": [
       {
         bedingung:"Sobald Systemspeicher voll ist,",
@@ -84,9 +85,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // Eigenschaftsmaster
-  "Eigenschaftsmaster": {
-    "key": "Eigenschaftsmaster",
+  // EigenschaftsMASTeR
+  "EigenschaftsMASTeR": {
+    "key": "EigenschaftsMASTeR",
     "rows": [
       {
         eigenschaft:"Die Länge",
@@ -98,9 +99,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // Umgebungsmaster
-  "Umgebungsmaster":{
-    "key": "Umgebungsmaster",
+  // UmgebungsMASTeR
+  "UmgebungsMASTeR":{
+    "key": "UmgebungsMASTeR",
     "rows": [
       {
         komponente: "Lesegerät des Systems",
@@ -114,9 +115,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
   },
 
-  // Prozessmaster
-  "Prozessmaster": {
-    "key": "Prozessmaster",
+  // ProzessMASTeR
+  "ProzessMASTeR": {
+    "key": "ProzessMASTeR",
     "rows": [
       {
         system: "Der Auftraggeber",
@@ -130,9 +131,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
   },
 
-  // Bedingungsmaster für logische Aussage
-  "Bedingungsmaster_logik": {
-    "key": "Bedingungsmaster_logik",
+  // BedingungsMASTeR für logische Aussage
+  "BedingungsMASTeR_logik": {
+    "key": "BedingungsMASTeR_logik",
     "rows": [
       {
         konjunkt2:"Falls",
@@ -141,9 +142,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // Bedingungsmaster für Ereignis
-  "Bedingungsmaster_ereignis": {
-    "key": "Bedingungsmaster_ereignis",
+  // BedingungsMASTeR für Ereignis
+  "BedingungsMASTeR_ereignis": {
+    "key": "BedingungsMASTeR_ereignis",
     "rows": [
       {
         konjunkt1:"Sobald",
@@ -152,9 +153,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // Bedingungsmaster für Zeitraum
-  "Bedingungsmaster_zeitraum": {
-    "key": "Bedingungsmaster_zeitraum",
+  // BedingungsMASTeR für Zeitraum
+  "BedingungsMASTeR_zeitraum": {
+    "key": "BedingungsMASTeR_zeitraum",
     "rows": [
       {
         konjunkt3:"Solange",
@@ -163,7 +164,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  // Functionalmaster without condition
+  // FunctionalMASTeR without condition
   "FunctionalM": {
     "key": "FunctionalM",
     "rows": [
@@ -177,7 +178,7 @@ ccm.files[ 'datasets.js' ] = {
     ],
   },
 
-  // Functionalmaster with condition
+  // FunctionalMASTeR with condition
   "FunctionalM_wC": {
     "key": "FunctionalM_wC",
     "rows": [
@@ -191,7 +192,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  // Detailed functionalmaster
+  // Detailed functionalMASTeR
   "D_FunctionalM": {
     "key": "D_FunctionalM",
     "rows": [
@@ -206,7 +207,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Detailed functionalmaster with condition
+  //Detailed functionalMASTeR with condition
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -221,7 +222,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Properity Master
+  //Properity MASTeR
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -236,7 +237,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Environment Master
+  //Environment MASTeR
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -251,7 +252,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Process Master
+  //Process MASTeR
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
