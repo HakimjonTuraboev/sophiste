@@ -1,14 +1,14 @@
 
 {
-    "_id": "requirementor",
-    "title": "Requirementor",
-    "icon": "https://ccmjs.github.io/mkaul-components/sophist/resources/icon.svg",
-    "abstract": "Collect your requirements",
-    "description": "Collect formally structured sentences (e.g. requirements) in a list. Store persistently or work on the list collaboratively via WebSockets.",
-    "url": "https://ccmjs.github.io/mkaul-components/sophist/versions/ccm.sophist-3.0.0.js",
+    "_id": "sophisten_masters",
+    "title": "Sophisten_Masters",
+    "icon": "https://github.com/Turaboev/sophiste/blob/master/resources/icon.svg",
+    "abstract": "Anforderungen schreiben",
+    "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt",
+    "url": "https://turaboev.github.io/sophiste/versions/ccm.sophist-3.0.0.js",
     "version": "3.0.0",
-    "website": "https://ccmjs.github.io/mkaul-components/",
-    "developer": "Manfred Kaul",
+    "website": "https://turaboev.github.io/sophiste/",
+    "developer": "Manfred Kaul & Hakimjon Turaboev",
     "license": "MIT License",
     "ignore": {
         "demos": [
@@ -16,7 +16,7 @@
                 "title": "demo",
                 "config": [
                     "ccm.get",
-                    "https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
                     "demo"
                 ]
             },
@@ -24,7 +24,7 @@
                 "title": "mit Bedingung",
                 "config": [
                     "ccm.get",
-                    "https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
                     "mit_Bedingung"
                 ]
             },
@@ -32,7 +32,7 @@
                 "title": "Local Persistence",
                 "config": [
                     "ccm.get",
-                    "https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
                     "local_persistence"
                 ]
             },
@@ -40,7 +40,7 @@
                 "title": "Remote Persistence",
                 "config": [
                     "ccm.get",
-                    "https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
                     "remote_persistence"
                 ]
             },
@@ -48,7 +48,7 @@
                 "title": "Collaborative",
                 "config": [
                     "ccm.get",
-                    "https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
                     "websockets"
                 ]
             }
@@ -73,7 +73,7 @@
                                 },
 
                                 "data": {
-                                    "store": [ "ccm.store", "https://ccmjs.github.io/mkaul-components/sophist/resources/datasets.js" ],
+                                    "store": [ "ccm.store", "https://turaboev.github.io/sophiste/resources/datasets.js" ],
                                     "key": "demo"
                                 },
 
@@ -123,7 +123,7 @@
                                     "condition": { "tag": "input", "type": "text", "class": "condition", "value": "%condition%" }
                                 },
 
-                                "css": [ "ccm.load",  "https://ccmjs.github.io/mkaul-components/sophist/resources/default.css" ]
+                                "css": [ "ccm.load",  "https://turaboev.github.io/sophiste/resources/default.css" ]
                             },
                             "json_builder": [
                                 "ccm.component",

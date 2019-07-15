@@ -1,6 +1,6 @@
 /**
  * @overview configs of ccm component sophist
- * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019
+ * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019 & Hakimjon Turaboev
  * @license The MIT License (MIT) mkaul2m on 13.06.2019.
  */
 
@@ -10,7 +10,7 @@
       key: "demo",
       "html.main.inner.0.inner": "FunktionsMASTeR ohne Bedingung",
       data: {
-        "store": [ "ccm.store", 'https://ccmjs.github.io/mkaul-components/sophist/resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "demo"
       }
     },
@@ -18,7 +18,7 @@
     "FunktionsMASTeR_oB": {
       key: "FunktionsMASTeR_oB",
       data: {
-        "store": [ "ccm.store", 'https://ccmjs.github.io/mkaul-components/sophist/resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "demo"
       }
     },
@@ -37,7 +37,7 @@
       },
 
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "FunktionsMASTeR_mB"
       }
     },
@@ -57,7 +57,7 @@
         konkretisiere:"Detail fürs Prozesswort",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunktionsMASTeR_oB"
       }
     },
@@ -77,7 +77,7 @@
         konkretisiere:"Detail fürs Prozesswort",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunktionsMASTeR_mB"
       }
     },
@@ -94,7 +94,7 @@
         wert:"Wert",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "EigenschaftsMASTeR"
       }
     },
@@ -112,7 +112,7 @@
         betrachtendes: "Bedingung"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "UmgebungsMASTeR"
       }
     },
@@ -133,7 +133,7 @@
         konkretisiere: "Detail fürs Prozesswort"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "ProzessMASTeR"
       }
     },
@@ -148,7 +148,7 @@
         präzisiere2: "Anforderungshauptsatz",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "BedingungsMASTeR_logik"
       }
     },
@@ -164,7 +164,7 @@
         präzisiere2: "Anforderungshauptsatz",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "BedingungsMASTeR_ereignis"
       }
     },
@@ -180,7 +180,7 @@
         präzisiere2: "Anforderungshauptsatz",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "BedingungsMASTeR_zeitraum"
       }
     },
@@ -197,7 +197,7 @@
         process: "a process verb",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "FunctionalM"
       }
     },
@@ -214,7 +214,7 @@
         bedingung:"condition,"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "FunctionalM_wC"
       }
     },
@@ -232,7 +232,7 @@
         konkretisiere:"indirect objects"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunctionalM"
       }
     },
@@ -251,7 +251,7 @@
         konkretisiere:"indirect objects"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunctionalMwC"
       }
     },
@@ -269,7 +269,7 @@
         konkretisiere:"indirect objects"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunctionalMwC"
       }
     },
@@ -287,7 +287,7 @@
         konkretisiere:"indirect objects"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunctionalMwC"
       }
     },
@@ -305,7 +305,7 @@
         konkretisiere:"indirect objects"
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunctionalMwC"
       }
     },
@@ -321,7 +321,7 @@
         präzisiere2: "requirements-main clause",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "condition_logical"
       }
     },
@@ -337,7 +337,7 @@
         präzisiere2: "requirements-main clause",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "condition_event"
       }
     },
@@ -353,7 +353,7 @@
         präzisiere2: "requirements-main clause",
       },
       data: {
-        "store": [ "ccm.store", 'resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "condition_time"
       }
     },

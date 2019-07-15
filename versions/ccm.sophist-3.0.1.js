@@ -1,6 +1,6 @@
 /**
  * @overview ccm component for sophist
- * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019
+ * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019 & Hakimjon Turaboev
  * @license The MIT License (MIT)
  * @version latest (2.0.0)
  * @changes
@@ -185,7 +185,7 @@
 
 
             //css: [ 'ccm.load',  'resources/default.css' ],
-            css: [ 'ccm.load',  'https://ccmjs.github.io/mkaul-components/sophist/resources/default.css' ],
+            css: [ 'ccm.load',  'https://turaboev.github.io/sophiste/resources/configs.js' ],
             // user:   [ 'ccm.instance', 'https://ccmjs.github.io/akless-components/user/versions/ccm.user-8.1.0.js', { realm: 'hbrsinfkaul' } ],
             // logger: [ 'ccm.instance', 'https://ccmjs.github.io/akless-components/log/versions/ccm.log-3.1.0.js', [ 'ccm.get', 'https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js', 'log' ] ],
             // onfinish: function( instance, results ){ console.log( results ); }
