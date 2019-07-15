@@ -1,7 +1,7 @@
 
 {
-    "_id": "sophisten_masters",
-    "title": "Sophisten_Masters",
+    "_id": "sophisten",
+    "title": "Sophisten",
     "icon": "https://github.com/Turaboev/sophiste/blob/master/resources/icon.svg",
     "abstract": "Anforderungen schreiben",
     "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt",
@@ -21,35 +21,35 @@
                 ]
             },
             {
-                "title": "mit Bedingung",
+                "title": "FunktionsMASTeR mit Bedingung",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "mit_Bedingung"
+                    "FunktionsMASTeR_mB"
                 ]
             },
             {
-                "title": "Local Persistence",
+                "title": "Detaillierter FunktionsMASTeR ohne Bedingung",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "local_persistence"
+                    "D_FunktionsMASTeR_oB"
                 ]
             },
             {
-                "title": "Remote Persistence",
+                "title": "Detaillierter FunktionsMASTeR mit Bedingung",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "remote_persistence"
+                    "D_FunktionsMASTeR_mB"
                 ]
             },
             {
-                "title": "Collaborative",
+                "title": "EigenschaftsMASTeR",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "websockets"
+                    "EigenschaftsMASTeR"
                 ]
             }
         ],
@@ -236,7 +236,7 @@
     "updated_at": "2019-07-07T10:41:22+02:00",
     "created_at": "2019-07-07T10:41:22+02:00",
     "_": {
-        "creator": "mkaul2m",
+        "creator": "mkaul2m & hturab2s",
         "realm": "hbrsinfkaul",
         "access": {
             "get": "all",

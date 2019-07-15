@@ -41,7 +41,7 @@
         "key": "FunktionsMASTeR_mB"
       }
     },
-    // Detaillierter FunktionsMASTeR ohne Bedingung
+      // Detaillierter FunktionsMASTeR ohne Bedingung
     "D_FunktionsMASTeR_oB": {
       "html.main.inner.0.inner":"Detaillierter FunktionsMASTeR ohne Bedingung",
       key: "D_FunktionsMASTeR_oB",
