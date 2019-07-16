@@ -300,4 +300,33 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
+  //FunktionsMASTeR mit Bedingung
+  "FunktionsMASTeR_uz": {
+    "key": "FunktionsMASTeR_uz",
+
+    "rows": [
+      {
+        system: "Tizim",
+        modal_uz: "KERAK",
+        func_uz: "IMKONINI BERISHI",
+        object: "hisobni",
+        process: "hisoblash"
+      },
+    ]
+  },
+  //FunktionsMASTeR mit Bedingung
+  "FunktionsMASTeR_mB": {
+    "key": "FunktionsMASTeR_mB",
+
+    "rows": [
+      {
+        bedingung: "Solange der Scanner an ist",
+        system: "das System",
+        modal: "MUSS",
+        func: "die Möglichkeit bieten",
+        object: "die Bezahlung",
+        process: "zu berechnen"
+      },
+    ]
+  }
 };
