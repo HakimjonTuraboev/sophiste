@@ -368,7 +368,7 @@
         modal_uz: "KERAK",
         func_uz: "IMKONINI BERISHI",
         object: "obyekt",
-        process: "jarayon"
+        process: "jarayon",
       },
       data: {
         //"store": [ "ccm.store", '/resources/datasets.js' ],
