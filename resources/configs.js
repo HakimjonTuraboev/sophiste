@@ -367,7 +367,7 @@
         system: "Tizim",
         modal_uz: "KERAK",
         func_uz: "IMKONINI BERISHI",
-        object: "hisob",
+        object: "obyekt",
         process: "jarayon"
       },
       data: {
