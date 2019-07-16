@@ -364,8 +364,11 @@
       headers: ["Systemname", "(Akteur)+Objekt","Prozesswort", "Funktionalität","Verbindlichkeit","Buttons"],
       columns: ["system","object","process","func_uz","modal_uz"],
       initial_values: {
-        präzisiere1:"time",
-        präzisiere2: "requirements-main clause",
+        system: "Tizim",
+        modal_uz: "modal",
+        func_uz: "IMKONINI BERISHI",
+        object: "hisob",
+        process: "jarayon"
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
