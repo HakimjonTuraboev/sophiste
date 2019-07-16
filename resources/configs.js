@@ -361,7 +361,7 @@
     "FunktionsMASTeR_uz":{
       "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
       key: "FunktionsMASTeR_uz",
-      headers: ["Tizim nomi", "(Aktyor)+Obyekt","", "Funktsionallik","Majburiyat","Tugmalar"],
+      headers: ["Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
       columns: ["system","object","process","func_uz","modal_uz"],
       initial_values: {
         system: "Tizim",
@@ -371,6 +371,7 @@
         process: "jarayon"
       },
       data: {
+        //"store": [ "ccm.store", '/resources/datasets.js' ],
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "FunktionsMASTeR_uz"
       }
