@@ -310,7 +310,7 @@ ccm.files[ 'datasets.js' ] = {
         modal_uz: "KERAK",
         func_uz: "IMKONINI BERISHI",
         object: "hisobni",
-        process: "hisoblash"
+        process: "hisoblash",
       },
     ]
   },

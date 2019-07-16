@@ -361,11 +361,11 @@
     "FunktionsMASTeR_uz":{
       "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
       key: "FunktionsMASTeR_uz",
-      headers: ["Systemname", "(Akteur)+Objekt","Prozesswort", "Funktionalität","Verbindlichkeit","Buttons"],
+      headers: ["Tizim nomi", "(Aktyor)+Obyekt","", "Funktsionallik","Majburiyat","Tugmalar"],
       columns: ["system","object","process","func_uz","modal_uz"],
       initial_values: {
         system: "Tizim",
-        modal_uz: "modal",
+        modal_uz: "KERAK",
         func_uz: "IMKONINI BERISHI",
         object: "hisob",
         process: "jarayon"
@@ -373,21 +373,6 @@
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "FunktionsMASTeR_uz"
-      }
-    },
-    //Usbekische Funktionsmaster ohne Bedingung
-    "FunktionsMASTeR_mB_uz":{
-      "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
-      key: "FunktionsMASTeR_mB_uz",
-      headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
-      columns: ["konjunkt3_e","präzisiere1","präzisiere2",],
-      initial_values: {
-        präzisiere1:"time",
-        präzisiere2: "requirements-main clause",
-      },
-      data: {
-        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "FunktionsMASTeR_mB_uz"
       }
     },
 };
