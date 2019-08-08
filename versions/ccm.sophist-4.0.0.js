@@ -154,12 +154,7 @@
                             "inner": "..."
                         },
                     ] },
-                sein: { tag: "select", class: "sein", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "sein"
-                        },
-                    ] },
+                sein: { tag: "span", "inner": "sein"},
                 gestaltet: { tag: "select", class: "gestaltet", inner: [
                         {
                             "tag": "option",

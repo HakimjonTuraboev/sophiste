@@ -379,9 +379,9 @@
       // Usbekische Funktionsmaster mit Bedingung
       "FunktionsMASTeR_mB_uz":{
           "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
-          key: "FunktionsMASTeR_uz",
+          key: "FunktionsMASTeR_mB_uz",
           headers: ["Yordamchi gap","Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
-          columns: ["system","object","process","func_uz","modal_uz"],
+          columns: ["bedingung",    "system",     "object",         "process", "func_uz",       "modal_uz"],
           initial_values: {
               bedingung:"yordamchi gap",
               system: "Tizim",

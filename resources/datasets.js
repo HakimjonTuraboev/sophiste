@@ -315,12 +315,12 @@ ccm.files[ 'datasets.js' ] = {
     ]
   },
   //Usbekische Funktionsmaster mit Bedingung
-  "FunktionsMASTeR_mB": {
-    "key": "FunktionsMASTeR_mB",
+  "FunktionsMASTeR_mB_uz": {
+    "key": "FunktionsMASTeR_mB_uz",
 
     "rows": [
       {
-        bedingung: "Agar pul kam berilsa",
+        bedingung: "Agar pul kam to'lansa",
         system: "Tizim",
         modal_uz: "KERAK",
         func_uz: "IMKONINI BERISHI",

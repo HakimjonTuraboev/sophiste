@@ -22,7 +22,7 @@
          * @type {string}
          */
         name: 'sophist',
-        version: [3,0,1],
+        //version: [3,0,1],
 
         /**
          * recommended used framework version
@@ -126,12 +126,7 @@
                             "inner": "..."
                         },
                     ] },
-                sein: { tag: "select", class: "sein", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "sein"
-                        },
-                    ] },
+                sein: { "tag": "span", "inner": "sein"},
                 gestaltet: { tag: "select", class: "gestaltet", inner: [
                         {
                             "tag": "option",
@@ -185,7 +180,7 @@
 
 
             //css: [ 'ccm.load',  'resources/default.css' ],
-            css: [ 'ccm.load',  'https://turaboev.github.io/sophiste/resources/configs.js' ],
+            css: [ 'ccm.load',  'https://turaboev.github.io/sophiste/resources/default.css' ],
             // user:   [ 'ccm.instance', 'https://ccmjs.github.io/akless-components/user/versions/ccm.user-8.1.0.js', { realm: 'hbrsinfkaul' } ],
             // logger: [ 'ccm.instance', 'https://ccmjs.github.io/akless-components/log/versions/ccm.log-3.1.0.js', [ 'ccm.get', 'https://ccmjs.github.io/mkaul-components/sophist/resources/configs.js', 'log' ] ],
             // onfinish: function( instance, results ){ console.log( results ); }

@@ -1,4 +1,3 @@
-
 /**
  * @overview unit tests of ccm component for sophist
  * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019
