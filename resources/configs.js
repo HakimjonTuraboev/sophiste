@@ -362,7 +362,7 @@
       "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
       key: "FunktionsMASTeR_uz",
       headers: ["Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
-      columns: ["system","object","process","func_uz","modal_uz"],
+      columns: ["system",        "object",      "process",  "func_uz",     "modal_uz"],
       initial_values: {
         system: "Tizim",
         modal_uz: "KERAK",
@@ -378,12 +378,12 @@
     },
       // Usbekische Funktionsmaster mit Bedingung
       "FunktionsMASTeR_mB_uz":{
-          "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
+          "html.main.inner.0.inner":"Usbekische Funktionsmaster mit Bedingung",
           key: "FunktionsMASTeR_mB_uz",
           headers: ["Yordamchi gap","Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
           columns: ["bedingung",    "system",     "object",         "process", "func_uz",       "modal_uz"],
           initial_values: {
-              bedingung:"yordamchi gap",
+              bedingung:"Yordamchi gap",
               system: "Tizim",
               modal_uz: "KERAK",
               func_uz: "IMKONINI BERISHI",
