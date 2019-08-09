@@ -157,9 +157,11 @@
                 sein: { "tag": "span", "inner": "sein"},
                 gestaltet: { "tag": "span", "inner": "so gestaltet sein, dass"},
                 betrieben: { "tag": "span", "inner": "betrieben werden kann"},
-                konjunkt1: { "tag": "span", "inner": "Sobald"},
+                konjunkt1: { "tag": "span", "inner": "SOBALD"},
+                konjunkt2: { "tag": "span", "inner": "FALLS"},
+                konjunkt3: { "tag": "span", "inner": "SOLANGE"},
                 konjunkt1_e: { "tag": "span", "inner": "AS SOON AS"},
-                konjunkt2_e: { "tag": "span", "inner": "If"},
+                konjunkt2_e: { "tag": "span", "inner": "IF"},
                 konjunkt3_e: { "tag": "span", "inner": "AS LONG AS"},
 
                 object: { tag: "input", type: "text", class: "object", value: "%object%" },
