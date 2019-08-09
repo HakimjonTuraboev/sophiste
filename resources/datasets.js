@@ -158,7 +158,7 @@ ccm.files[ 'datasets.js' ] = {
     "key": "BedingungsMASTeR_zeitraum",
     "rows": [
       {
-        konjunkt3:"Solange",
+        konjunkt3:"SOLANGE",
         präzisiere1:"das System angeschaltet ist,",
         präzisiere2: "Anforderungshauptsatz"
       },
