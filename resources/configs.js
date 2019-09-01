@@ -77,7 +77,7 @@
         konkretisiere:"Detail fürs Prozesswort",
       },
       data: {
-        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/https://turaboev.github.io/sophiste/resources/datasets.js' ],
+        "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "D_FunktionsMASTeR_mB"
       }
     },
