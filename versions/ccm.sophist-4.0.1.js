@@ -147,43 +147,15 @@
                             "inner": "..."
                         },
                     ] },
-                sein: { tag: "span", "inner": "sein"},
-                gestaltet: { tag: "select", class: "gestaltet", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "so gestaltet sein, dass "
-                        },
-                    ] },
-                betrieben: { tag: "select", class: "betrieben", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "betrieben werden kann"
-                        },
-                    ] },
-                konjunkt1: { tag: "select", class: "sobald", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "Sobald",
-                        },
-                    ] },
-                konjunkt1_e: { tag: "select", class: "AS SOON AS", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "AS SOON AS",
-                        },
-                    ] },
-                konjunkt2_e: { tag: "select", class: "IF", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "If",
-                        },
-                    ] },
-                konjunkt3_e: { tag: "select", class: "AS LONG AS", inner: [
-                        {
-                            "tag": "option",
-                            "inner": "AS LONG AS",
-                        },
-                    ] },
+                sein: { "tag": "span", "inner": "sein"},
+                gestaltet: { "tag": "span", "inner": "so gestaltet sein, dass"},
+                betrieben: { "tag": "span", "inner": "betrieben werden kann"},
+                konjunkt1: { "tag": "span", "inner": "SOBALD"},
+                konjunkt2: { "tag": "span", "inner": "FALLS"},
+                konjunkt3: { "tag": "span", "inner": "SOLANGE"},
+                konjunkt1_e: { "tag": "span", "inner": "AS SOON AS"},
+                konjunkt2_e: { "tag": "span", "inner": "IF"},
+                konjunkt3_e: { "tag": "span", "inner": "AS LONG AS"},
 
                 object: { tag: "input", type: "text", class: "object", value: "%object%" },
                 process: { tag: "input", type: "text", class: "process", value: "%process%" },
