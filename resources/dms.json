@@ -131,6 +131,14 @@
                     "https://turaboev.github.io/sophiste/resources/configs.js",
                     "condition_time"
                 ]
+            },
+            {
+                "title": "Collaborative_demo",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "websocket"
+                ]
             }
         ],
         "builder": [

@@ -1,12 +1,8 @@
+
 /**
  * @overview ccm component for sophist
- * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019 & Hakimjon Turaboev
+ * @author Manfred Kaul & Hakimjon Turaboev 2019
  * @license The MIT License (MIT)
- * @version latest (2.0.0)
- * @changes
- * version 2.1.0 03.07.2019 refactor config
- * version 2.0.0 30.06.2019 add forms
- * version 1.0.0 13.06.2019 initial build
  * TODO: unit tests
  * TODO: builder component
  */

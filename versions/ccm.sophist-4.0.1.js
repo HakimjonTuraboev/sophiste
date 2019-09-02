@@ -1,7 +1,9 @@
 /**
  * @overview ccm component for sophist
- * @author Manfred Kaul <manfred.kaul@h-brs.de> 2019 & Hakimjon Turaboev
+ * @author Manfred Kaul & Hakimjon Turaboev 2019
  * @license The MIT License (MIT)
+ * TODO: unit tests
+ * TODO: builder component
  */
 
 ( function () {

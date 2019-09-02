@@ -1,8 +1,8 @@
 /**
  * @overview datasets for ccm component sophist
  * @version 0.0.1
- * @author mkaul2m Manfred.Kaul@h-brs.de & hturab2s
- * @copyright The MIT License (MIT) mkaul2m & hturab2s
+ *@author Manfred Kaul & Hakimjon Turaboev 2019
+ * @copyright The MIT License (MIT)
  */
 
 ccm.files[ 'datasets.js' ] = {

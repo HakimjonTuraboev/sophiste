@@ -1,4 +1,7 @@
-
+/**
+ * @author Hakimjon Turaboev 2019
+ * @license The MIT License (MIT)
+ */
 function edit_row(no)
 {
     document.getElementById("edit_button"+no).disabled = true;
