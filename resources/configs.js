@@ -400,15 +400,15 @@
       "key": "websocket",
       "html.main.inner.0.inner": "Collaborative_demo",
       "data": {
-        "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
-        "key": "sophist_demo"
+        "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "server_demo", "dataset": "demo" } ],
+        "key": "demo"
       }
     },
     "local_persistence": {
       "key": "local_persistence",
       "html.main.inner.0.inner": "Lokales Speichern im Browser",
       "data": {
-        "store": [ "ccm.store", { "name": "demo" } ],
+        "store": [ "ccm.store", { "name": "server_demo" } ],
         "key": "demo"
       }
     },

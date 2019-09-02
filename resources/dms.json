@@ -139,6 +139,14 @@
                     "https://turaboev.github.io/sophiste/resources/configs.js",
                     "websocket"
                 ]
+            },
+            {
+                "title": "Browser_demo",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "Browser_store"
+                ]
             }
         ],
         "builder": [
