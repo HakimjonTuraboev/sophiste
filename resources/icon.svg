@@ -1,7 +1,4 @@
-
-
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
   <svg version="1.1" viewBox="0 0 64 64"
        xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
     <g id="Layer_1">
@@ -19,4 +16,3 @@
     font-weight: 900; white-space: pre;" x="5.9"
           y="34.56">MASTeRs </text>
   </svg>
-</svg>
