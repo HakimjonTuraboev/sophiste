@@ -12,7 +12,7 @@
     "ignore": {
         "demos": [
             {
-                "title": "demo",
+                "title": "1. F-Sch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -20,7 +20,7 @@
                 ]
             },
             {
-                "title": "FunktionsMASTeR mit Bedingung",
+                "title": "2. F-Sch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -28,7 +28,7 @@
                 ]
             },
             {
-                "title": "Detaillierter FunktionsMASTeR ohne Bedingung",
+                "title": "D-F-Sch-B",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -130,6 +130,22 @@
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
                     "condition_time"
+                ]
+            },
+            {
+                "title": "Collaborative_demo",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "websocket"
+                ]
+            },
+            {
+                "title": "Browser_demo",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "Browser_store"
                 ]
             }
         ],
