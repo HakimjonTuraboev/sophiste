@@ -159,7 +159,6 @@
                 konjunkt1_e: { "tag": "span", "inner": "AS SOON AS"},
                 konjunkt2_e: { "tag": "span", "inner": "IF"},
                 konjunkt3_e: { "tag": "span", "inner": "AS LONG AS"},
-
                 object: { tag: "input", type: "text", class: "object", value: "%object%" },
                 process: { tag: "input", type: "text", class: "process", value: "%process%" },
                 bedingung: { tag: "input", type: "text", class: "bedingung", value: "%bedingung%" },

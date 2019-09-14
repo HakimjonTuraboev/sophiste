@@ -147,6 +147,14 @@
                     "https://turaboev.github.io/sophiste/resources/configs.js",
                     "Browser_store"
                 ]
+            },
+            {
+                "key": "websockets",
+                "html.main.inner.0.inner": "Kollaboration via WebSockets",
+                "data": {
+                    "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
+                    "key": "sophist_demo"
+                }
             }
         ],
         "builder": [
