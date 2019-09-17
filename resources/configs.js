@@ -398,18 +398,27 @@
       },
     "websocket": {
       "key": "websocket",
-      "html.main.inner.0.inner": "Collaborative ",
+      "html.main.inner.0.inner": "Collaborative Schablone",
       "data": {
         "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "server_demo", "dataset": "demo" } ],
         "key": "demo"
       }
     },
-    "local_persistence": {
-      "key": "local_persistence",
-      "html.main.inner.0.inner": "Lokales Schablone im Browser",
+
+    "browser_persistence": {
+      "key": "browser_persistence",
+      "html.main.inner.0.inner": "Lokal persistent im Browser Store",
       "data": {
-        "store": [ "ccm.store", { "name": "server_demo" } ],
-        "key": "demo"
+        "store": [ "ccm.store", { "name": "sophist_db" } ],
+        "key": "sophist_demo"
+      }
+    },
+    "remote_persistence": {
+      "key": "remote_persistence",
+      "html.main.inner.0.inner": "Remote persistent durch Server Datenbank",
+      "data": {
+        "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
+        "key": "sophist_demo"
       }
     },
 };
