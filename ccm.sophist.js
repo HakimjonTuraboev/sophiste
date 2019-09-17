@@ -49,7 +49,7 @@
 
             html: {
                 main: {
-                    inner: [ { tag: "h2", inner: "FunktionsMASTeR" } ]
+                    inner: [ { tag: "h2", inner: "FunktionsSch" } ]
                 },
                 buttons:
                     { tag: "td", inner: [

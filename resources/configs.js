@@ -5,28 +5,28 @@
  */
 
   ccm.files[ 'configs.js' ] = {
-    //Demo oder FunktionsMASTeR ohne Bedingung
+    //Demo oder FunktionsSch ohne Bedingung
     "demo": {
       key: "demo",
-      "html.main.inner.0.inner": "FunktionsMASTeR ohne Bedingung",
+      "html.main.inner.0.inner": "FunktionsSch ohne Bedingung",
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "demo"
       }
     },
-    //FunktionsMASTeR ohne Bedingung
-    "FunktionsMASTeR_oB": {
-      key: "FunktionsMASTeR_oB",
+    //FunktionsSch ohne Bedingung
+    "FunktionsSch_oB": {
+      key: "FunktionsSch_oB",
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "demo"
       }
     },
 
-    //FunktionsMASTeR mit Bedingung
-    "FunktionsMASTeR_mB": {
-      "html.main.inner.0.inner":"FunktionsMASTeR mit Bedingung",
-      key: "FunktionsMASTeR_mB",
+    //FunktionsSch mit Bedingung
+    "FunktionsSch_mB": {
+      "html.main.inner.0.inner":"FunktionsSch mit Bedingung",
+      key: "FunktionsSch_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Objekt","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","object","process"],
       initial_values: {
@@ -38,13 +38,13 @@
 
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "FunktionsMASTeR_mB"
+        "key": "FunktionsSch_mB"
       }
     },
-      // Detaillierter FunktionsMASTeR ohne Bedingung
-    "D_FunktionsMASTeR_oB": {
-      "html.main.inner.0.inner":"Detaillierter FunktionsMASTeR ohne Bedingung",
-      key: "D_FunktionsMASTeR_oB",
+      // Detaillierter FunktionsSch ohne Bedingung
+    "D_FunktionsSch_oB": {
+      "html.main.inner.0.inner":"Detaillierter FunktionsSch ohne Bedingung",
+      key: "D_FunktionsSch_oB",
       headers: ["Systemname","Verbindlichkeit","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["system","modal","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
       initial_values: {
@@ -58,13 +58,13 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "D_FunktionsMASTeR_oB"
+        "key": "D_FunktionsSch_oB"
       }
     },
-    // Detaillierter FunktionsMASTeR mit Bedingung
-    "D_FunktionsMASTeR_mB": {
-      "html.main.inner.0.inner":"Detaillierter FunktionsMASTeR mit Bedingung",
-      key: "D_FunktionsMASTeR_mB",
+    // Detaillierter FunktionsSch mit Bedingung
+    "D_FunktionsSch_mB": {
+      "html.main.inner.0.inner":"Detaillierter FunktionsSch mit Bedingung",
+      key: "D_FunktionsSch_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
       initial_values: {
@@ -78,13 +78,13 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "D_FunktionsMASTeR_mB"
+        "key": "D_FunktionsSch_mB"
       }
     },
-    // EigenschaftsMASTeR
-    "EigenschaftsMASTeR": {
-      "html.main.inner.0.inner":"EigenschaftsMASTeR",
-      key: "EigenschaftsMASTeR",
+    // EigenschaftsSch
+    "EigenschaftsSch": {
+      "html.main.inner.0.inner":"EigenschaftsSch",
+      key: "EigenschaftsSch",
       headers: ["Eigenschaft","Betrachtendes","Verbindlichkeit","Vergleich","Wert","SEIN","Buttons"],
       columns: ["eigenschaft","betrachtendes","modal","vergleich", "wert", "sein"],
       initial_values: {
@@ -95,13 +95,13 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "EigenschaftsMASTeR"
+        "key": "EigenschaftsSch"
       }
     },
-    // UmgebungsMASTeR
-    "UmgebungsMASTeR":{
-      "html.main.inner.0.inner":"UmgebungsMASTeR",
-      key: "UmgebungsMASTeR",
+    // UmgebungsSch
+    "UmgebungsSch":{
+      "html.main.inner.0.inner":"UmgebungsSch",
+      key: "UmgebungsSch",
       headers: ["(Komponente des)+Betrachtendes","Verbindlichkeit","so gestaltet sein, dass","(Bedingung)+ Betrachtendes","Eigenschaft","(Vergleich)+Wert","betrieben werden kann", "Buttons"],
       columns: ["komponente",                  "modal",          "gestaltet",             "betrachtendes","eigenschaft", "vergleich",        "betrieben"],
       initial_values: {
@@ -113,13 +113,13 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "UmgebungsMASTeR"
+        "key": "UmgebungsSch"
       }
     },
-    // ProzessMASTeR
-    "ProzessMASTeR":{
-      "html.main.inner.0.inner":"ProzessMASTeR",
-      key: "ProzessMASTeR",
+    // ProzessSch
+    "ProzessSch":{
+      "html.main.inner.0.inner":"ProzessSch",
+      key: "ProzessSch",
       headers: [ "Buttons"],
       headers: ["Akteurname","Verbindlichkeit","(Präzisierung des   Objekts)","Objekt","(Präzisierung des Objekts)","(Konkretisierung des Prozessworts)","Prozesswort","Buttons"],
       columns: ["system","modal","präzisiere1","object", "präzisiere2", "konkretisiere", "process"],
@@ -134,13 +134,13 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "ProzessMASTeR"
+        "key": "ProzessSch"
       }
     },
-    // BedingungsMASTeR für logische Aussage
-    "BedingungsMASTeR_logik":{
-      "html.main.inner.0.inner":"BedingungsMASTeR für logische Aussage",
-      key: "BedingungsMASTeR_logik",
+    // BedingungsSch für logische Aussage
+    "BedingungsSch_logik":{
+      "html.main.inner.0.inner":"BedingungsSch für logische Aussage",
+      key: "BedingungsSch_logik",
       headers: ["Kojunktion", "logische Aussage","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt2","präzisiere1","präzisiere2",],
       initial_values: {
@@ -149,14 +149,14 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "BedingungsMASTeR_logik"
+        "key": "BedingungsSch_logik"
       }
     },
 
-    // BedingungsMASTeR für Ereignis
-    "BedingungsMASTeR_ereignis":{
-      "html.main.inner.0.inner":"BedingungsMASTeR für Ereignis",
-      key: "BedingungsMASTeR_ereignis",
+    // BedingungsSch für Ereignis
+    "BedingungsSch_ereignis":{
+      "html.main.inner.0.inner":"BedingungsSch für Ereignis",
+      key: "BedingungsSch_ereignis",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt1","präzisiere1","präzisiere2",],
       initial_values: {
@@ -165,14 +165,14 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "BedingungsMASTeR_ereignis"
+        "key": "BedingungsSch_ereignis"
       }
     },
 
-    // BedingungsMASTeR für Zeitraum
-    "BedingungsMASTeR_zeitraum":{
-      "html.main.inner.0.inner":"BedingungsMASTeR für Zeitraum",
-      key: "BedingungsMASTeR_zeitraum",
+    // BedingungsSch für Zeitraum
+    "BedingungsSch_zeitraum":{
+      "html.main.inner.0.inner":"BedingungsSch für Zeitraum",
+      key: "BedingungsSch_zeitraum",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt3","präzisiere1","präzisiere2",],
       initial_values: {
@@ -181,13 +181,13 @@
       },
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "BedingungsMASTeR_zeitraum"
+        "key": "BedingungsSch_zeitraum"
       }
     },
 
-    // FunctionalMASTeR without condition
+    // FunctionalSch without condition
     "FunctionalM":{
-      "html.main.inner.0.inner":"FunctionalMASTeR without condition",
+      "html.main.inner.0.inner":"FunctionalSch without condition",
       key: "FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["system","modal_e","func_e","process","object",],
@@ -201,9 +201,9 @@
         "key": "FunctionalM"
       }
     },
-    //FunctionalMASTeR with condition
+    //FunctionalSch with condition
     "FunctionalM_wC":{
-      "html.main.inner.0.inner":"FunctionalMASTeR with condition",
+      "html.main.inner.0.inner":"FunctionalSch with condition",
       key: "FunctionalM_wC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","object",],
@@ -219,9 +219,9 @@
       }
     },
 
-    //Detailed functionalMASTeR
+    //Detailed functionalSch
     "D_FunctionalM":{
-      "html.main.inner.0.inner":"Detailed functionalMASTeR",
+      "html.main.inner.0.inner":"Detailed functionalSch",
       key: "D_FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -237,9 +237,9 @@
       }
     },
 
-    //Detailed functionalMASTeR with condition
+    //Detailed functionalSch with condition
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"Detailed functionalMASTeR with condition",
+      "html.main.inner.0.inner":"Detailed functionalSch with condition",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -255,9 +255,9 @@
         "key": "D_FunctionalMwC"
       }
     },
-    //properity MASTeR
+    //properity Sch
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"properity MASTeR",
+      "html.main.inner.0.inner":"properity Sch",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -273,9 +273,9 @@
         "key": "D_FunctionalMwC"
       }
     },
-    //Environment MASTeR
+    //Environment Sch
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"Environment MASTeR",
+      "html.main.inner.0.inner":"Environment Sch",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -291,9 +291,9 @@
         "key": "D_FunctionalMwC"
       }
     },
-    //Process MASTeR
+    //Process Sch
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"Process MASTeR",
+      "html.main.inner.0.inner":"Process Sch",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -357,10 +357,10 @@
         "key": "condition_time"
       }
     },
-    // Usbekische Funktionsmaster ohne Bedingung
-    "FunktionsMASTeR_uz":{
-      "html.main.inner.0.inner":"Usbekische Funktionsmaster ohne Bedingung",
-      key: "FunktionsMASTeR_uz",
+    // Usbekische FunktionsSch ohne Bedingung
+    "FunktionsSch_uz":{
+      "html.main.inner.0.inner":"Usbekische FunktionsSch ohne Bedingung",
+      key: "FunktionsSch_uz",
       headers: ["Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
       columns: ["system",        "object",      "process",  "func_uz",     "modal_uz"],
       initial_values: {
@@ -373,13 +373,13 @@
       data: {
         //"store": [ "ccm.store", '/resources/datasets.js' ],
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-        "key": "FunktionsMASTeR_uz"
+        "key": "FunktionsSch_uz"
       }
     },
-      // Usbekische Funktionsmaster mit Bedingung
-      "FunktionsMASTeR_mB_uz":{
-          "html.main.inner.0.inner":"Usbekische Funktionsmaster mit Bedingung",
-          key: "FunktionsMASTeR_mB_uz",
+      // Usbekische FunktionsSch mit Bedingung
+      "FunktionsSch_mB_uz":{
+          "html.main.inner.0.inner":"Usbekische FunktionsSch mit Bedingung",
+          key: "FunktionsSch_mB_uz",
           headers: ["Yordamchi gap","Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
           columns: ["bedingung",    "system",     "object",         "process", "func_uz",       "modal_uz"],
           initial_values: {
@@ -393,7 +393,7 @@
           data: {
               //"store": [ "ccm.store", '/resources/datasets.js' ],
               "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
-              "key": "FunktionsMASTeR_mB_uz"
+              "key": "FunktionsSch_mB_uz"
           }
       },
     "websocket": {

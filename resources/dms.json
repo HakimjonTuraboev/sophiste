@@ -1,9 +1,13 @@
- {
-    "_id": "sophisten",
-    "title": "Sophisten",
+
+
+{
+    "_id": "Schablone",
+    "title": "Reuqirementsschablone",
     "icon": "https://turaboev.github.io/sophiste/resources/icon.svg",
     "abstract": "Anforderungen schreiben",
     "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt",
+
+
     "url": "https://turaboev.github.io/sophiste/versions/ccm.sophist-4.0.1.js",
     "version": "4.0.1",
     "website": "https://turaboev.github.io/sophiste/",
@@ -12,83 +16,83 @@
     "ignore": {
         "demos": [
             {
-                "title": "1. F-Sch",
+                "title": "1. FunktionsSch-oB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "demo"
+                    "FunktionsSch_oB"
                 ]
             },
             {
-                "title": "2. F-Sch",
+                "title": "2. FunktionsSch_mB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "FunktionsMASTeR_mB"
+                    "FunktionsSch_mB"
                 ]
             },
             {
-                "title": "D-F-Sch-B",
+                "title": "D-FunktionsSch_oB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "D_FunktionsMASTeR_oB"
+                    "D_FunktionsSch_oB"
                 ]
             },
             {
-                "title": "Detaillierter FunktionsMASTeR mit Bedingung",
+                "title": "Detaillierter FunktionsSch mit Bedingung",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "D_FunktionsMASTeR_mB"
+                    "D_FunktionsSch_mB"
                 ]
             },
             {
-                "title": "EigenschaftsMASTeR",
+                "title": "EigenschaftsSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "EigenschaftsMASTeR"
+                    "EigenschaftsSch"
                 ]
             },
             {
-                "title": "UmgebungsMASTeR",
+                "title": "UmgebungsSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "UmgebungsMASTeR"
+                    "UmgebungsSch"
                 ]
             },
             {
-                "title": "ProzessMASTeR",
+                "title": "ProzessSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "ProzessMASTeR"
+                    "ProzessSch"
                 ]
             },
             {
-                "title": "BedingungsMASTeR_logik",
+                "title": "BedingungsSch_logik",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "BedingungsMASTeR_logik"
+                    "BedingungsSch_logik"
                 ]
             },
             {
-                "title": "BedingungsMASTeR_ereignis",
+                "title": "BedingungsSch_ereignis",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "BedingungsMASTeR_ereignis"
+                    "BedingungsSch_ereignis"
                 ]
             },
             {
-                "title": "BedingungsMASTeR_zeitraum",
+                "title": "BedingungsSch_zeitraum",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "BedingungsMASTeR_zeitraum"
+                    "BedingungsSch_zeitraum"
                 ]
             },
 
