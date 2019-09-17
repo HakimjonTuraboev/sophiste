@@ -396,6 +396,15 @@
               "key": "FunktionsSch_mB_uz"
           }
       },
+
+    "browser_persistence": {
+      "key": "browser_persistence",
+      "html.main.inner.0.inner": "Lokal persistent schablone im Browser Store",
+      "data": {
+        "store": [ "ccm.store", { "name": "sophist_db" } ],
+        "key": "sophist_demo"
+      }
+    },
     "websocket": {
       "key": "websocket",
       "html.main.inner.0.inner": "Collaborative Schablone",
@@ -405,20 +414,13 @@
       }
     },
 
-    "browser_persistence": {
-      "key": "browser_persistence",
-      "html.main.inner.0.inner": "Lokal persistent im Browser Store",
-      "data": {
-        "store": [ "ccm.store", { "name": "sophist_db" } ],
-        "key": "sophist_demo"
-      }
-    },
+
     "remote_persistence": {
       "key": "remote_persistence",
       "html.main.inner.0.inner": "Remote persistent durch Server Datenbank",
       "data": {
-        "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
-        "key": "sophist_demo"
+        "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "UmgebungsSch" } ],
+        "key": "UmgebungsSch"
       }
     },
 };
