@@ -43,7 +43,7 @@
     },
       // Detaillierter FunktionsSch ohne Bedingung
     "D_FunktionsSch_oB": {
-      "html.main.inner.0.inner":"Detaillierter Funktionsschablone ohne Bedingung",
+      "html.main.inner.0.inner":"Detaillierte Funktionsschablone ohne Bedingung",
       key: "D_FunktionsSch_oB",
       headers: ["Systemname","Verbindlichkeit","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["system","modal","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
@@ -63,7 +63,7 @@
     },
     // Detaillierter FunktionsSch mit Bedingung
     "D_FunktionsSch_mB": {
-      "html.main.inner.0.inner":"Detaillierter Funktionsschablone mit Bedingung",
+      "html.main.inner.0.inner":"Detaillierte Funktionsschablone mit Bedingung",
       key: "D_FunktionsSch_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
@@ -187,7 +187,7 @@
 
     // FunctionalSch without condition
     "FunctionalM":{
-      "html.main.inner.0.inner":"Functionalschablone without condition",
+      "html.main.inner.0.inner":"Functional schablone without condition",
       key: "FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["system","modal_e","func_e","process","object",],
@@ -203,7 +203,7 @@
     },
     //FunctionalSch with condition
     "FunctionalM_wC":{
-      "html.main.inner.0.inner":"Functionalschablone with condition",
+      "html.main.inner.0.inner":"Functional schablone with condition",
       key: "FunctionalM_wC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","object",],
@@ -359,7 +359,7 @@
     },
     // Usbekische FunktionsSch ohne Bedingung
     "FunktionsSch_uz":{
-      "html.main.inner.0.inner":"Usbekische FunktionsSch ohne Bedingung",
+      "html.main.inner.0.inner":"Usbekische Funktionsschablone ohne Bedingung",
       key: "FunktionsSch_uz",
       headers: ["Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
       columns: ["system",        "object",      "process",  "func_uz",     "modal_uz"],
@@ -378,7 +378,7 @@
     },
       // Usbekische FunktionsSch mit Bedingung
       "FunktionsSch_mB_uz":{
-          "html.main.inner.0.inner":"Usbekische FunktionsSch mit Bedingung",
+          "html.main.inner.0.inner":"Usbekische Funktionsschablone mit Bedingung",
           key: "FunktionsSch_mB_uz",
           headers: ["Yordamchi gap","Tizim nomi", "(Aktyor)+Obyekt","Jarayon","Funktsionallik","Majburiyat","Tugmalar"],
           columns: ["bedingung",    "system",     "object",         "process", "func_uz",       "modal_uz"],
@@ -398,7 +398,7 @@
       },
     "websocket": {
       "key": "websocket",
-      "html.main.inner.0.inner": "Collaborative_demo",
+      "html.main.inner.0.inner": "Collaborative ",
       "data": {
         "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "server_demo", "dataset": "demo" } ],
         "key": "demo"
