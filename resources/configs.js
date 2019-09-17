@@ -8,7 +8,7 @@
     //Demo oder FunktionsSch ohne Bedingung
     "demo": {
       key: "demo",
-      "html.main.inner.0.inner": "FunktionsSch ohne Bedingung",
+      "html.main.inner.0.inner": "Funktionsschablone ohne Bedingung",
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "demo"
@@ -25,7 +25,7 @@
 
     //FunktionsSch mit Bedingung
     "FunktionsSch_mB": {
-      "html.main.inner.0.inner":"FunktionsSch mit Bedingung",
+      "html.main.inner.0.inner":"Funktionsschablone mit Bedingung",
       key: "FunktionsSch_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Objekt","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","object","process"],
@@ -43,7 +43,7 @@
     },
       // Detaillierter FunktionsSch ohne Bedingung
     "D_FunktionsSch_oB": {
-      "html.main.inner.0.inner":"Detaillierter FunktionsSch ohne Bedingung",
+      "html.main.inner.0.inner":"Detaillierter Funktionsschablone ohne Bedingung",
       key: "D_FunktionsSch_oB",
       headers: ["Systemname","Verbindlichkeit","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["system","modal","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
@@ -63,7 +63,7 @@
     },
     // Detaillierter FunktionsSch mit Bedingung
     "D_FunktionsSch_mB": {
-      "html.main.inner.0.inner":"Detaillierter FunktionsSch mit Bedingung",
+      "html.main.inner.0.inner":"Detaillierter Funktionsschablone mit Bedingung",
       key: "D_FunktionsSch_mB",
       headers: ["Bedingung","Verbindlichkeit","Systemname","Funktionalität","Präzisierung1","Objekt","Präzisierung2","Konkretisierung","Prozesswort", "Buttons"],
       columns: ["bedingung","modal","system","func","präzisiere1","object","präzisiere2", "konkretisiere","process"],
@@ -83,7 +83,7 @@
     },
     // EigenschaftsSch
     "EigenschaftsSch": {
-      "html.main.inner.0.inner":"EigenschaftsSch",
+      "html.main.inner.0.inner":"Eigenschaftsschablone",
       key: "EigenschaftsSch",
       headers: ["Eigenschaft","Betrachtendes","Verbindlichkeit","Vergleich","Wert","SEIN","Buttons"],
       columns: ["eigenschaft","betrachtendes","modal","vergleich", "wert", "sein"],
@@ -100,7 +100,7 @@
     },
     // UmgebungsSch
     "UmgebungsSch":{
-      "html.main.inner.0.inner":"UmgebungsSch",
+      "html.main.inner.0.inner":"Umgebungsschablone",
       key: "UmgebungsSch",
       headers: ["(Komponente des)+Betrachtendes","Verbindlichkeit","so gestaltet sein, dass","(Bedingung)+ Betrachtendes","Eigenschaft","(Vergleich)+Wert","betrieben werden kann", "Buttons"],
       columns: ["komponente",                  "modal",          "gestaltet",             "betrachtendes","eigenschaft", "vergleich",        "betrieben"],
@@ -118,7 +118,7 @@
     },
     // ProzessSch
     "ProzessSch":{
-      "html.main.inner.0.inner":"ProzessSch",
+      "html.main.inner.0.inner":"Prozessschablone",
       key: "ProzessSch",
       headers: [ "Buttons"],
       headers: ["Akteurname","Verbindlichkeit","(Präzisierung des   Objekts)","Objekt","(Präzisierung des Objekts)","(Konkretisierung des Prozessworts)","Prozesswort","Buttons"],
@@ -139,7 +139,7 @@
     },
     // BedingungsSch für logische Aussage
     "BedingungsSch_logik":{
-      "html.main.inner.0.inner":"BedingungsSch für logische Aussage",
+      "html.main.inner.0.inner":"Bedingungsschablone für logische Aussage",
       key: "BedingungsSch_logik",
       headers: ["Kojunktion", "logische Aussage","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt2","präzisiere1","präzisiere2",],
@@ -155,7 +155,7 @@
 
     // BedingungsSch für Ereignis
     "BedingungsSch_ereignis":{
-      "html.main.inner.0.inner":"BedingungsSch für Ereignis",
+      "html.main.inner.0.inner":"Bedingungsschablone für Ereignis",
       key: "BedingungsSch_ereignis",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt1","präzisiere1","präzisiere2",],
@@ -171,7 +171,7 @@
 
     // BedingungsSch für Zeitraum
     "BedingungsSch_zeitraum":{
-      "html.main.inner.0.inner":"BedingungsSch für Zeitraum",
+      "html.main.inner.0.inner":"Bedingungsschablone für Zeitraum",
       key: "BedingungsSch_zeitraum",
       headers: ["Kojunktion", "Ereignis","Anforderungshauptsatz","Buttons"],
       columns: ["konjunkt3","präzisiere1","präzisiere2",],
@@ -187,7 +187,7 @@
 
     // FunctionalSch without condition
     "FunctionalM":{
-      "html.main.inner.0.inner":"FunctionalSch without condition",
+      "html.main.inner.0.inner":"Functionalschablone without condition",
       key: "FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["system","modal_e","func_e","process","object",],
@@ -203,7 +203,7 @@
     },
     //FunctionalSch with condition
     "FunctionalM_wC":{
-      "html.main.inner.0.inner":"FunctionalSch with condition",
+      "html.main.inner.0.inner":"Functionalschablone with condition",
       key: "FunctionalM_wC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Object", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","object",],
@@ -221,7 +221,7 @@
 
     //Detailed functionalSch
     "D_FunctionalM":{
-      "html.main.inner.0.inner":"Detailed functionalSch",
+      "html.main.inner.0.inner":"Detailed functional schablone",
       key: "D_FunctionalM",
       headers: ["System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -239,7 +239,7 @@
 
     //Detailed functionalSch with condition
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"Detailed functionalSch with condition",
+      "html.main.inner.0.inner":"Detailed functional schablone with condition",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -257,7 +257,7 @@
     },
     //properity Sch
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"properity Sch",
+      "html.main.inner.0.inner":"properity schablone",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -275,7 +275,7 @@
     },
     //Environment Sch
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"Environment Sch",
+      "html.main.inner.0.inner":"Environment schablone",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -293,7 +293,7 @@
     },
     //Process Sch
     "D_FunctionalMwC":{
-      "html.main.inner.0.inner":"Process Sch",
+      "html.main.inner.0.inner":"Process schablone",
       key: "D_FunctionalMwC",
       headers: ["Condition","System name", "Commitment", "Functionality",  "Process verb","Direct objects","Indirect objects", "Buttons"],
       columns: ["bedingung","system","modal_e","func_e","process","präzisiere1","konkretisiere"],
@@ -406,7 +406,7 @@
     },
     "local_persistence": {
       "key": "local_persistence",
-      "html.main.inner.0.inner": "Lokales Speichern im Browser",
+      "html.main.inner.0.inner": "Lokales Schablone im Browser",
       "data": {
         "store": [ "ccm.store", { "name": "server_demo" } ],
         "key": "demo"

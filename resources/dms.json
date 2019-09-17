@@ -32,7 +32,7 @@
                 ]
             },
             {
-                "title": "D-FunktionsSch_oB",
+                "title": "D-FunktionsSch_mB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",

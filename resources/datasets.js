@@ -6,7 +6,7 @@
  */
 
 ccm.files[ 'datasets.js' ] = {
-   //Demo oder FunktionsMASTeR ohne Bedingung
+   //Demo oder FunktionsSch ohne Bedingung
   "demo": {
     "key": "demo",
     "rows": [
@@ -27,9 +27,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
 
   },
-  //FunktionsMASTeR mit Bedingung
-  "FunktionsMASTeR_mB": {
-    "key": "FunktionsMASTeR_mB",
+  //FunktionsSch mit Bedingung
+  "FunktionsSch_mB": {
+    "key": "FunktionsSch_mB",
 
     "rows": [
       {
@@ -50,9 +50,9 @@ ccm.files[ 'datasets.js' ] = {
       }
     ]
   },
-  // Detaillierter FunktionsMASTeR ohne Bedingung
-  "D_FunktionsMASTeR_oB": {
-    "key": "D_FunktionsMASTeR_oB",
+  // Detaillierter FunktionsSch ohne Bedingung
+  "D_FunktionsSch_oB": {
+    "key": "D_FunktionsSch_oB",
     "rows": [
       {
         system: "Das System",
@@ -68,9 +68,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
 
   },
-  // Detaillierter FunktionsMASTeR mit Bedingung
-  "D_FunktionsMASTeR_mB": {
-    "key": "D_FunktionsMASTeR_mB",
+  // Detaillierter FunktionsSch mit Bedingung
+  "D_FunktionsSch_mB": {
+    "key": "D_FunktionsSch_mB",
     "rows": [
       {
         bedingung:"Sobald Systemspeicher voll ist,",
@@ -85,9 +85,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // EigenschaftsMASTeR
-  "EigenschaftsMASTeR": {
-    "key": "EigenschaftsMASTeR",
+  // EigenschaftsSch
+  "EigenschaftsSch": {
+    "key": "EigenschaftsSch",
     "rows": [
       {
         eigenschaft:"Die Länge",
@@ -99,9 +99,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // UmgebungsMASTeR
-  "UmgebungsMASTeR":{
-    "key": "UmgebungsMASTeR",
+  // UmgebungsSch
+  "UmgebungsSch":{
+    "key": "UmgebungsSch",
     "rows": [
       {
         komponente: "Lesegerät des Systems",
@@ -115,9 +115,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
   },
 
-  // ProzessMASTeR
-  "ProzessMASTeR": {
-    "key": "ProzessMASTeR",
+  // ProzessSch
+  "ProzessSch": {
+    "key": "ProzessSch",
     "rows": [
       {
         system: "Der Auftraggeber",
@@ -131,9 +131,9 @@ ccm.files[ 'datasets.js' ] = {
     ]
   },
 
-  // BedingungsMASTeR für logische Aussage
-  "BedingungsMASTeR_logik": {
-    "key": "BedingungsMASTeR_logik",
+  // BedingungsSch für logische Aussage
+  "BedingungsSch_logik": {
+    "key": "BedingungsSch_logik",
     "rows": [
       {
         konjunkt2:"Falls",
@@ -142,9 +142,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // BedingungsMASTeR für Ereignis
-  "BedingungsMASTeR_ereignis": {
-    "key": "BedingungsMASTeR_ereignis",
+  // BedingungsSch für Ereignis
+  "BedingungsSch_ereignis": {
+    "key": "BedingungsSch_ereignis",
     "rows": [
       {
         konjunkt1:"Sobald",
@@ -153,9 +153,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  // BedingungsMASTeR für Zeitraum
-  "BedingungsMASTeR_zeitraum": {
-    "key": "BedingungsMASTeR_zeitraum",
+  // BedingungsSch für Zeitraum
+  "BedingungsSch_zeitraum": {
+    "key": "BedingungsSch_zeitraum",
     "rows": [
       {
         konjunkt3:"SOLANGE",
@@ -164,7 +164,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  // FunctionalMASTeR without condition
+  // FunctionalSch without condition
   "FunctionalM": {
     "key": "FunctionalM",
     "rows": [
@@ -178,7 +178,7 @@ ccm.files[ 'datasets.js' ] = {
     ],
   },
 
-  // FunctionalMASTeR with condition
+  // FunctionalSch with condition
   "FunctionalM_wC": {
     "key": "FunctionalM_wC",
     "rows": [
@@ -192,7 +192,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  // Detailed functionalMASTeR
+  // Detailed functionalSch
   "D_FunctionalM": {
     "key": "D_FunctionalM",
     "rows": [
@@ -207,7 +207,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Detailed functionalMASTeR with condition
+  //Detailed functionalSch with condition
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -222,7 +222,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Properity MASTeR
+  //Properity Sch
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -237,7 +237,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Environment MASTeR
+  //Environment Sch
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -252,7 +252,7 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Process MASTeR
+  //Process Sch
   "D_FunctionalMwC": {
     "key": "D_FunctionalMwC",
     "rows": [
@@ -300,9 +300,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ],
   },
-  //Usbekische Funktionsmaster ohne Bedingung
-  "FunktionsMASTeR_uz": {
-    "key": "FunktionsMASTeR_uz",
+  //Usbekische FunktionsSch ohne Bedingung
+  "FunktionsSch_uz": {
+    "key": "FunktionsSch_uz",
 
     "rows": [
       {
@@ -314,9 +314,9 @@ ccm.files[ 'datasets.js' ] = {
       },
     ]
   },
-  //Usbekische Funktionsmaster mit Bedingung
-  "FunktionsMASTeR_mB_uz": {
-    "key": "FunktionsMASTeR_mB_uz",
+  //Usbekische FunktionsSch mit Bedingung
+  "FunktionsSch_mB_uz": {
+    "key": "FunktionsSch_mB_uz",
 
     "rows": [
       {
