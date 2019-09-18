@@ -17,6 +17,7 @@
     //FunktionsSch ohne Bedingung
     "FunktionsSch_oB": {
       key: "FunktionsSch_oB",
+      "html.main.inner.0.inner": "Funktionsschablone ohne Bedingung",
       data: {
         "store": [ "ccm.store", 'https://turaboev.github.io/sophiste/resources/datasets.js' ],
         "key": "demo"
