@@ -397,30 +397,41 @@
           }
       },
 
-    "browser_persistence": {
-      "key": "browser_persistence",
-      "html.main.inner.0.inner": "Lokal persistent schablone im Browser Store",
+// Schablonen für verschiedene Speichern.
+
+    "local_demo": {
+      "key": "local_demo",
+      "html.main.inner.0.inner": "Demoschablone im Browserstore",
       "data": {
         "store": [ "ccm.store", { "name": "sophist_db" } ],
         "key": "sophist_demo"
       }
     },
-    "websocket": {
-      "key": "websocket",
-      "html.main.inner.0.inner": "Collaborative Schablone",
+
+    "remote_demo": {
+      "key": "remote_demo",
+      "html.main.inner.0.inner": "Demoschablone in Server Datenbank (einseitig)",
       "data": {
-        "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "server_demo", "dataset": "demo" } ],
-        "key": "demo"
+        "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
+        "key": "sophist_demo"
       }
     },
 
-
-    "remote_persistence": {
-      "key": "remote_persistence",
-      "html.main.inner.0.inner": "Remote persistent durch Server Datenbank",
+    "websocket_demo": {
+      "key": "websockets",
+      "html.main.inner.0.inner": "Kollaborative Demoschablone durch WebSocket (Echtzeit)",
       "data": {
-        "store": [ "ccm.store", { "url": "https://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "UmgebungsSch" } ],
-        "key": "UmgebungsSch"
+        "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
+        "key": "sophist_demo"
+      }
+    },
+
+    "websocket_UmgebungsSch": {
+      "key": "UmgebungsSch",
+      "html.main.inner.0.inner": "Kollaborative Demoschablone durch WebSocket (Echtzeit)",
+      "data": {
+        "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "sophist_db2", "dataset": "sophist_demo2" } ],
+        "key": "sophist_demo2"
       }
     },
 };

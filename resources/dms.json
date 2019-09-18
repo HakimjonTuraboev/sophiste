@@ -120,7 +120,7 @@
                     "condition_logical"
                 ]
             },
-           {
+            {
                 "title": "condition_event",
                 "config": [
                     "ccm.get",
@@ -137,28 +137,44 @@
                 ]
             },
             {
-                "title": "Collaborative_demo",
+                "title": "Demo_Browserstore1",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "websocket"
+                     "local_demo"
                 ]
             },
             {
-                "title": "Browser_demo",
+                "title": "Demo_Server",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "Browser_store"
+                    "remote_demo"
                 ]
             },
             {
-                "key": "websockets",
-                "html.main.inner.0.inner": "Kollaboration via WebSockets",
-                "data": {
-                    "store": [ "ccm.store", { "url": "wss://ccm2.inf.h-brs.de", "name": "sophist_db", "dataset": "sophist_demo" } ],
-                    "key": "sophist_demo"
-                }
+                "title": "Demo_Websocket",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "websocket_demo"
+                ]
+            },
+            {
+                "title": "Demo_Websocket",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "websocket_demo"
+                ]
+            },
+            {
+                "title": "Demo_Websocket2",
+                "config": [
+                    "ccm.get",
+                    "https://turaboev.github.io/sophiste/resources/configs.js",
+                    "websocket_UmgebungsSch"
+                ]
             }
         ],
         "builder": [
