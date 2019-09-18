@@ -1,15 +1,12 @@
 
-
 {
     "_id": "Schablone",
     "title": "Reuqirementsschablone",
     "icon": "https://turaboev.github.io/sophiste/resources/icon.svg",
     "abstract": "Anforderungen schreiben",
-    "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt",
-
-
-    "url": "https://turaboev.github.io/sophiste/versions/ccm.sophist-4.0.1.js",
-    "version": "4.0.1",
+    "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt. Verkürzungen: Sch-Schablone, D-detailliert, oB-ohne Bedingung, mb-mit Bedingung, uz- uzbek, M-Master, Mwc- Master with condition",
+    "url": "https://turaboev.github.io/sophiste/versions/ccm.sophist-4.0.2.js",
+    "version": "4.0.2",
     "website": "https://turaboev.github.io/sophiste/",
     "developer": "Hakimjon Turaboev",
     "license": "MIT License",
@@ -32,7 +29,7 @@
                 ]
             },
             {
-                "title": "D-FunktionsSch_mB",
+                "title": "3. D-FunktionsSch_oB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -40,7 +37,7 @@
                 ]
             },
             {
-                "title": "Detaillierter FunktionsSch mit Bedingung",
+                "title": "4. D-FunktionsSch_mB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -48,7 +45,7 @@
                 ]
             },
             {
-                "title": "EigenschaftsSch",
+                "title": "5. EigenschaftsSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -56,7 +53,7 @@
                 ]
             },
             {
-                "title": "UmgebungsSch",
+                "title": "6. UmgebungsSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -64,7 +61,7 @@
                 ]
             },
             {
-                "title": "ProzessSch",
+                "title": "7. ProzessSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -72,7 +69,7 @@
                 ]
             },
             {
-                "title": "BedingungsSch_logik",
+                "title": "8. BedingungsSch_logik",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -80,7 +77,7 @@
                 ]
             },
             {
-                "title": "BedingungsSch_ereignis",
+                "title": "9. BedingungsSch_ereignis",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -88,7 +85,7 @@
                 ]
             },
             {
-                "title": "BedingungsSch_zeitraum",
+                "title": "10. BedingungsSch_zeitraum",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -97,7 +94,7 @@
             },
 
             {
-                "title": "FunctionalM",
+                "title": "11. FunctionalSch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -105,7 +102,7 @@
                 ]
             },
             {
-                "title": "D_FunctionalMwC",
+                "title": "12. D_FunctionalMwC",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -113,7 +110,7 @@
                 ]
             },
             {
-                "title": "condition_logical",
+                "title": "13. condition_logical",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -121,7 +118,7 @@
                 ]
             },
             {
-                "title": "condition_event",
+                "title": "14. condition_event",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -129,7 +126,7 @@
                 ]
             },
             {
-                "title": "condition_time",
+                "title": "15. condition_time",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -137,7 +134,7 @@
                 ]
             },
             {
-                "title": "Demo_Browserstore1",
+                "title": "16. Demo_Browserstore1",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -145,7 +142,7 @@
                 ]
             },
             {
-                "title": "Demo_Server",
+                "title": "17. Demo_Server",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -153,7 +150,7 @@
                 ]
             },
             {
-                "title": "Demo_Websocket",
+                "title": "18. Demo_Websocket",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -161,7 +158,7 @@
                 ]
             },
             {
-                "title": "Demo_Websocket",
+                "title": "19. Demo_Websocket",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -169,7 +166,7 @@
                 ]
             },
             {
-                "title": "Demo_Websocket2",
+                "title": "20. Demo_Websocket2",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -360,8 +357,8 @@
     "updated_at": "2019-07-07T10:41:22+02:00",
     "created_at": "2019-07-07T10:41:22+02:00",
     "_": {
-        "creator": "mkaul2m & hturab2s",
-        "realm": "hbrsinfkaul",
+        "creator": "hturab2s",
+        "realm": "hturab2s",
         "access": {
             "get": "all",
             "set": "creator",

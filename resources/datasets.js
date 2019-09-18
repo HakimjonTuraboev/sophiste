@@ -1,6 +1,6 @@
 /**
  * @overview datasets for ccm component sophist
- * @version 0.0.1
+ * @version 4.0.2
  *@author Manfred Kaul & Hakimjon Turaboev 2019
  * @copyright The MIT License (MIT)
  */
