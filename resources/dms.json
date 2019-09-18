@@ -21,7 +21,7 @@
                 ]
             },
             {
-                "title": "2. FunktionsSch_mB",
+                "title": "2. FunktionsSch-mB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -29,7 +29,7 @@
                 ]
             },
             {
-                "title": "3. D-FunktionsSch_oB",
+                "title": "3. D-FunktionsSch-oB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -37,7 +37,7 @@
                 ]
             },
             {
-                "title": "4. D-FunktionsSch_mB",
+                "title": "4. D-FunktionsSch-mB",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -69,7 +69,7 @@
                 ]
             },
             {
-                "title": "8. BedingungsSch_logik",
+                "title": "8. BedingungsSch-Logik",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -77,7 +77,7 @@
                 ]
             },
             {
-                "title": "9. BedingungsSch_ereignis",
+                "title": "9. BedingungsSch-Ereignis",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -85,7 +85,7 @@
                 ]
             },
             {
-                "title": "10. BedingungsSch_zeitraum",
+                "title": "10. BedingungsSch-Zeitraum",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -94,7 +94,7 @@
             },
 
             {
-                "title": "11. FunctionalSch",
+                "title": "11. Functional-Sch",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -102,7 +102,7 @@
                 ]
             },
             {
-                "title": "12. D_FunctionalMwC",
+                "title": "12. D-FunctionalMwC",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -110,7 +110,7 @@
                 ]
             },
             {
-                "title": "13. condition_logical",
+                "title": "13. condition-logical",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -118,7 +118,7 @@
                 ]
             },
             {
-                "title": "14. condition_event",
+                "title": "14. condition-event",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -126,7 +126,7 @@
                 ]
             },
             {
-                "title": "15. condition_time",
+                "title": "15. condition-time",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -134,7 +134,7 @@
                 ]
             },
             {
-                "title": "16. Demo_Browserstore1",
+                "title": "16. Demo-Browserstore",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -142,7 +142,7 @@
                 ]
             },
             {
-                "title": "17. Demo_Server",
+                "title": "17. Demo-Server",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -150,7 +150,7 @@
                 ]
             },
             {
-                "title": "18. Demo_Websocket",
+                "title": "18. Demo-Websocket",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
@@ -158,21 +158,22 @@
                 ]
             },
             {
-                "title": "19. Demo_Websocket",
+                "title": "19. FunktionsSch-oB-uz",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "websocket_demo"
+                    "FunktionsSch_uz"
                 ]
             },
             {
-                "title": "20. Demo_Websocket2",
+                "title": "19. FunktionsSch-mB-uz",
                 "config": [
                     "ccm.get",
                     "https://turaboev.github.io/sophiste/resources/configs.js",
-                    "websocket_UmgebungsSch"
+                    "FunktionsSch_mB_uz"
                 ]
             }
+
         ],
         "builder": [
             {
