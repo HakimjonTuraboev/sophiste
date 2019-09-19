@@ -4,7 +4,7 @@
     "title": "R-Schablonen",
     "icon": "https://turaboev.github.io/sophiste/resources/icon.svg",
     "abstract": "Mit diesen Schablonen werden die Anforderungen geschrieben",
-    "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt. Verkürzungen: Sch-Schablone, D-detailliert, oB-ohne Bedingung, mb-mit Bedingung, uz- uzbek, M-Master, Mwc- Master with condition",
+    "description": "Eine Anforderungsschablone ist ein Bauplan, der die Struktur eines einzelnen Anforderungssatzes festlegt. Verkürzungen: Sch-Schablone, D-detailliert, oB-ohne Bedingung, mb-mit Bedingung, uz- uzbek, M-Master, Mwc- Master with condition. Zum ausführlichen Lesen: <a href=\"https://turaboev.github.io/sophiste/Abschlussarbeit_019.pdf\",\"> Die Abschlussarbeit </a> </br>",
     "url": "https://turaboev.github.io/sophiste/versions/ccm.sophist-4.0.2.js",
     "version": "4.0.2",
     "website": "https://turaboev.github.io/sophiste/",
