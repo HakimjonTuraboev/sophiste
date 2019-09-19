@@ -17,7 +17,7 @@
          * @type {string}
          */
         name: 'sophist',
-        //version: [3,0,1],
+        version: [3,0,1],
 
         /**
          * recommended used framework version
